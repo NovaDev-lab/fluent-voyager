@@ -13,7 +13,18 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Space Grotesk", "system-ui", "sans-serif"],
+        mono: ["JetBrains Mono", "ui-monospace", "monospace"],
+      },
       colors: {
+        void: "hsl(var(--void))",
+        nebula: "hsl(var(--nebula))",
+        pulsar: "hsl(var(--pulsar))",
+        "pulsar-glow": "hsl(var(--pulsar-glow))",
+        spectral: "hsl(var(--spectral))",
+        dust: "hsl(var(--dust))",
+        stardust: "hsl(var(--stardust))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
